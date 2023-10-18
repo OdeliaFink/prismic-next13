@@ -2,6 +2,4 @@
 
 import dynamic from "next/dynamic";
 
-export const components = {
-  navigation: dynamic(() => import("./Navigation")),
-};
+export const components = {};
