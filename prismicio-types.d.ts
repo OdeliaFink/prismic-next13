@@ -96,6 +96,36 @@ export type SettingsDocument<Lang extends string = string> =
 
 export type AllDocumentTypes = SettingsDocument;
 
+/**
+ * Default variation for Navigation Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type NavigationSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Record<string, never>,
+  never
+>;
+
+/**
+ * Slice variation for *Navigation*
+ */
+type NavigationSliceVariation = NavigationSliceDefault;
+
+/**
+ * Navigation Shared Slice
+ *
+ * - **API ID**: `navigation`
+ * - **Description**: Navigation
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type NavigationSlice = prismic.SharedSlice<
+  "navigation",
+  NavigationSliceVariation
+>;
+
 declare module "@prismicio/client" {
   interface CreateClient {
     (
@@ -110,6 +140,9 @@ declare module "@prismicio/client" {
       SettingsDocumentData,
       SettingsDocumentDataNavigationItem,
       AllDocumentTypes,
+      NavigationSlice,
+      NavigationSliceVariation,
+      NavigationSliceDefault,
     };
   }
 }
