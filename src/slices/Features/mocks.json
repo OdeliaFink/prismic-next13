@@ -25,8 +25,8 @@
 						"icon",
 						{
 							"__TYPE__": "FieldContent",
-							"value": "hourglass",
-							"type": "Select"
+							"type": "Select",
+							"value": "bargraph"
 						}
 					],
 					[
@@ -53,6 +53,141 @@
 									"content": {
 										"text": "Culpa consectetur reprehenderit minim nisi laborum ut dolore ipsum aliquip. Sint proident irure laboris eiusmod consequat ex laboris culpa velit adipisicing."
 									}
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "calendar"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Culpa consectetur reprehenderit minim nisi laborum ut dolore ipsum aliquip. Sint proident irure laboris eiusmod consequat ex laboris culpa velit adipisicing.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Bar",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "clover"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "clover",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Culpa consectetur reprehenderit minim nisi laborum ut dolore ipsum aliquip. Sint proident irure laboris eiusmod consequat ex laboris culpa velit adipisicing.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Select",
+							"value": "hourglass"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Culpa consectetur reprehenderit minim nisi laborum ut dolore ipsum aliquip. Sint proident irure laboris eiusmod consequat ex laboris culpa velit adipisicing.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "glass",
+										"spans": []
+									},
+									"direction": "ltr"
 								}
 							]
 						}
