@@ -31,8 +31,8 @@
 			},
 			"button_text": {
 				"__TYPE__": "FieldContent",
-				"value": "major",
-				"type": "Text"
+				"type": "Text",
+				"value": "learn more"
 			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
