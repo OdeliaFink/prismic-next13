@@ -41,11 +41,9 @@ export default function RootLayout({
     <>
       <html lang="en" className={clsx(nunito.variable, nunitoSans.variable)}>
         <body suppressHydrationWarning>
-          {/* @ts-expect-error Async Server Component */}
           <Header />
           {children}
         </body>
-        {/* @ts-expect-error Async Server Component */}
         <Footer />
         <div className="fixed bg-gradoent-to-tr from-emerald-50 to-cyan-50 z-[-1] inset-0 opacity-50" />
         <PrismicPreview repositoryName={repositoryName} />
